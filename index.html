@@ -1,0 +1,179 @@
+if you can read this, wsg homie<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>:)</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: url('https://cdn.glitch.global/42095f7f-abaa-4cff-a89e-68a99024e250/Rainbow%2BGradient%2BCover%2BWM%2B2.jpg?v=1723084214825') no-repeat center center fixed;
+        background-size: cover;
+        text-align: center;
+        margin: 0; /* Remove default body margin */
+    }
+
+    .container {
+        width: 100%; /* Full width of the viewport */
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .button-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .button {
+        flex: 1 0 calc(50% - 20px); /* 2 buttons per row on mobile */
+        max-width: calc(50% - 20px);
+        padding: 10px;
+        margin: 10px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .button:hover {
+        background-color: #2980b9;
+    }
+
+    .stop-button {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        background-color: #e74c3c;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+
+    .stop-button:hover {
+        background-color: #c0392b;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>eith3rw4y</h1>
+  <h2>final "farewell" update :)</h2>
+  <a href="https://guns.lol/meadoo">guns.lol page     </a>
+  <h1>
+    <audio id="audio1" src="https://cdn.glitch.global/fe1b06cf-f70d-4589-8d48-94ec3ecd9260/you-are-my-sunshine-made-with-Voicemod.mp3?v=1712878340921"></audio>
+    <audio id="audio2" src="https://cdn.glitch.global/fe1b06cf-f70d-4589-8d48-94ec3ecd9260/SLIENCE.mp4?v=1712878129987"></audio>
+    <audio id="audio3" src="https://cdn.glitch.global/fe1b06cf-f70d-4589-8d48-94ec3ecd9260/audio8.mp3?v=1712877822370"></audio>
+    <audio id="audio4" src="https://cdn.glitch.global/fe1b06cf-f70d-4589-8d48-94ec3ecd9260/swaglikeaohio.mp3?v=1713404553127"></audio>
+    <audio id="audio5" src="https://cdn.glitch.global/fe1b06cf-f70d-4589-8d48-94ec3ecd9260/brrskibdi.mp3?v=1713406644997"></audio>
+    <audio id="audio6" src="https://cdn.glitch.global/fe1b06cf-f70d-4589-8d48-94ec3ecd9260/toby-chip-made-with-Voicemod.mp3?v=1713407175539"></audio>
+    <audio id="audio7" src="https://cdn.glitch.global/fe1b06cf-f70d-4589-8d48-94ec3ecd9260/COMCell_Ouverture%20ringtone%20iphone%20(ID%201699)_BSB.mp3?v=1715396674250"></audio>
+    <audio id="audio8" src="https://cdn.glitch.global/fe1b06cf-f70d-4589-8d48-94ec3ecd9260/allahu-akbar.mp3?v=1715818554978"></audio>
+      <audio id="audio9" src="https://cdn.glitch.global/42095f7f-abaa-4cff-a89e-68a99024e250/jeremy-noise.mp3?v=1717285648848"></audio>
+    <audio id="audio10" src="https://cdn.glitch.global/42095f7f-abaa-4cff-a89e-68a99024e250/elprimosoundeffectmp3.mp3?v=1717286637674"></audio>
+    <audio id="audio11" src="https://cdn.glitch.global/42095f7f-abaa-4cff-a89e-68a99024e250/vine-boom.mp3?v=1723041813371"></audio>
+    <audio id="audio12" src="https://cdn.glitch.global/42095f7f-abaa-4cff-a89e-68a99024e250/metal-pipe-falling-sound-effect.mp3?v=1723085605343"></audio>
+    <audio id="audio13" src="https://cdn.glitch.global/42095f7f-abaa-4cff-a89e-68a99024e250/prowler-sound-effect_6bXErot.mp3?v=1723085735565"></audio>
+   
+    <div class="button-container" id="buttonContainer">
+        <button class="button" onclick="playSound('audio1')" style="flex: 1 0 calc(33.33% - 20px); max-width: calc(33.33% - 20px);">you are my sunshine</button>
+        <button class="button" onclick="playSound('audio2')" style="flex: 1 0 calc(33.33% - 20px); max-width: calc(33.33% - 20px);">SLIENCE. LIAR.</button>
+        <button class="button" onclick="playSound('audio3')" style="flex: 1 0 calc(33.33% - 20px); max-width: calc(33.33% - 20px);">QUICK DD HIT EM W A SCREAM</button>
+        <button class="button" onclick="playSound('audio4')" style="flex: 1 0 calc(33.33% - 20px); max-width: calc(33.33% - 20px);">swag like ohio</button>
+        <button class="button" onclick="playSound('audio5')" style="flex: 1 0 calc(33.33% - 20px); max-width: calc(33.33% - 20px);">brr sibidi dop dop</button>
+        <button class="button" onclick="playSound('audio6')" style="flex: 1 0 calc(33.33% - 20px); max-width: calc(33.33% - 20px);">toby chip</button>
+        <button class="button" onclick="playSound('audio7')" style="flex: 1 0 calc(33.33% - 20px); max-width: calc(33.33% - 20px);">iphone call ringtone</button>
+        <button class="button" onclick="playSound('audio8')" style="flex: 1 0 calc(33.33% - 20px); max-width: calc(33.33% - 20px);">allahubharrr</button>
+      <button class="button" onclick="playSound('audio9')" style="flex: 1 0 calc(33.33% - 20px); max-width: calc(33.33% - 20px);">jeremy scream</button>
+       <button class="button" onclick="playSound('audio10')" style="flex: 1 0 calc(33.33% - 20px); max-width: calc(33.33% - 20px);">el primoo</button>
+       <button class="button" onclick="playSound('audio11')" style="flex: 1 0 calc(33.33% - 20px); max-width: calc(33.33% - 20px);">vine boom reverb</button>
+      <button class="button" onclick="playSound('audio12')" style="flex: 1 0 calc(33.33% - 20px); max-width: calc(33.33% - 20px);">metal pipe </button>
+        <button class="button" onclick="playSound('audio13')" style="flex: 1 0 calc(33.33% - 20px); max-width: calc(33.33% - 20px);">prowler sfx </button>
+        <!-- Add more buttons as needed -->
+    </div> 
+
+    <button class="stop-button" onclick="stopAllSounds()">Stop All</button>
+  </h1>
+</div>
+
+<script>
+    var playingSounds = [];
+
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'p' || event.key === 'P' || event.key === 'q' || event.key === 'Q') {
+            stopAllSounds();
+        }
+    });
+
+    function playSound(id) {
+        var sound = document.getElementById(id);
+        sound.currentTime = 0; // Reset sound to the beginning
+        sound.play();
+        playingSounds.push(sound);
+    }
+
+    function stopAllSounds() {
+        for (var i = 0; i < playingSounds.length; i++) {
+            playingSounds[i].pause();
+            playingSounds[i].currentTime = 0;
+        }
+        playingSounds = [];
+    }
+
+    // Adjust button layout when the window is resized
+    window.addEventListener('resize', function() {
+        var buttons = document.querySelectorAll('.button');
+        if (window.innerWidth <= 600) {
+            buttons.forEach(function(button) {
+                button.style.flex = '1 0 calc(50% - 20px)';
+                button.style.maxWidth = 'calc(50% - 20px)';
+            });
+        } else {
+            buttons.forEach(function(button) {
+                button.style.flex = '1 0 calc(33.33% - 20px)';
+                button.style.maxWidth = 'calc(33.33% - 20px)';
+            });
+        }
+    });
+
+</script>
+</body>
+</html>
+
+
+ 
